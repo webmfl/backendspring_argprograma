@@ -10,6 +10,7 @@
         <module name="crud" />
         <module name="backendfinal_nomio" />
         <module name="backend_martinlazo" />
+        <module name="backendspring_argprograma" />
         <module name="backendspring_argprograma-80ee45019466c8c5d43cbe76d05ff9fe59f3b376" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="backend_martinlazo" options="-parameters" />
       <module name="backendfinal_nomio" options="-parameters" />
+      <module name="backendspring_argprograma" options="-parameters" />
       <module name="backendspring_argprograma-80ee45019466c8c5d43cbe76d05ff9fe59f3b376" options="-parameters" />
       <module name="crud" options="-parameters" />
     </option>

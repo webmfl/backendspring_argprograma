@@ -59,8 +59,10 @@ public class MainSecurity extends WebSecurityConfigurerAdapter {
         http.cors().and().csrf().disable()
                 .authorizeRequests()
                 .antMatchers("/auth/**").permitAll()
-                .antMatchers("/exp/**").permitAll()
-                .antMatchers("/edu/**").permitAll()
+                .antMatchers("/exp/list").permitAll()
+                .antMatchers("/edu/list").permitAll()
+                .antMatchers("/hab/list").permitAll()
+                .antMatchers("/pro/list").permitAll()
 
                 .anyRequest().authenticated()
                 .and()
